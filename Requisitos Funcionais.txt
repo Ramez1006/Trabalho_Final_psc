@@ -1,0 +1,59 @@
+
+2. Requisitos Funcionais
+Cadastro de Doações
+
+O sistema deve permitir o cadastro de doações, especificando o tipo, quantidade e data da doação.
+O tipo da doação pode ser um item como "jeans", "moletom", etc.
+A quantidade deve ser um valor numérico.
+A data deve ser inserida no formato "dd/MM/yyyy".
+Salvar Doações em Arquivo
+
+O sistema deve salvar cada doação registrada em um arquivo de texto.
+O formato do arquivo deve ser CSV (Comma Separated Values), com cada doação em uma nova linha.
+Carregar Doações de Arquivo
+
+O sistema deve carregar as doações de um arquivo de texto ao iniciar.
+As doações carregadas devem ser armazenadas em uma lista interna.
+Calcular Total de Doações por Tipo
+
+O sistema deve calcular e exibir o total de doações agrupadas por tipo.
+O total deve ser a soma das quantidades de todas as doações de um determinado tipo.
+Exibir Doações por Tipo
+
+O sistema deve exibir todas as doações de um tipo específico.
+O usuário deve poder especificar o tipo de doação a ser exibido.
+Interface de Usuário Simples
+
+O sistema deve fornecer uma interface de usuário baseada em texto para interação.
+As opções de menu devem incluir:
+Receber Doação
+Calcular Total de Doações
+Exibir Doações por Tipo
+Sair
+Tratamento de Erros
+
+O sistema deve lidar com erros de leitura/escrita de arquivos de forma adequada.
+Mensagens de erro devem ser exibidas ao usuário em caso de problemas.
+Fluxo de Operações
+Receber Doação
+
+Solicitar ao usuário o tipo, quantidade e data da doação.
+Adicionar a doação à lista interna e salvar no arquivo.
+Calcular Total de Doações
+
+Ler todas as doações da lista interna.
+Calcular o total de doações para cada tipo e exibir ao usuário.
+Exibir Doações por Tipo
+
+Solicitar ao usuário o tipo de doação a ser exibido.
+Filtrar e exibir as doações do tipo especificado.
+Sair
+
+Encerrar o sistema de forma segura.
+
+
+3. Críticas a IA: A ia não desenvolve o código propriamente dito, ela dá uma base ( uma ideia com possíveis modificações), para o usuário que usa, mas pode conter erros no código na hora de rodar, assim como, ficar de maneira incompleta.
+A ia ela simplifica de maneira rápida o código, mas também, dependendo do erro do código, ela não localiza e o remove, de maneira que o programador, tem que fazer essa função.
+
+5. A estratégia de uso da IA, está em orientações de ideias, e possíveis recursos no qual o usuário pode usar ( como testes de possíveis entradas e sídas no programa, estrutura de repetições é melhor de usar naquele caso), e o rpogramador avaliará, qual é melhor para seu uso, assim, como os scripts melhores para interagir com a IA.
+
